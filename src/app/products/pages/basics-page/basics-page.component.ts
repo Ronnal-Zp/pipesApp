@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class BasicsPageComponent {
 
+  public name: string     = 'Aldahir';
+  public lastname: string = 'Zamora';
+  public fullname: string = 'RoNnY ALdaHIr ZaMoRA PLUas';
+
 }
