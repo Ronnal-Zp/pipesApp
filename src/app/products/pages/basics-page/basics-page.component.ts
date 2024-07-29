@@ -11,4 +11,6 @@ export class BasicsPageComponent {
   public lastname: string = 'Zamora';
   public fullname: string = 'RoNnY ALdaHIr ZaMoRA PLUas';
 
+  public fecha: Date = new Date();
+
 }
