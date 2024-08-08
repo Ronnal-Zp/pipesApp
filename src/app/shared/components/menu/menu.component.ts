@@ -34,40 +34,15 @@ export class MenuComponent {
             ]
         },
         {
-            label: 'Projects',
-            icon: 'pi pi-search',
+            label: 'Pipes personalizados',
+            icon: 'pi pi-cog',
             items: [
                 {
-                    label: 'Components',
-                    icon: 'pi pi-bolt'
-                },
-                {
-                    label: 'Blocks',
-                    icon: 'pi pi-server'
-                },
-                {
-                    label: 'UI Kit',
-                    icon: 'pi pi-pencil'
-                },
-                {
-                    label: 'Templates',
-                    icon: 'pi pi-palette',
-                    items: [
-                        {
-                            label: 'Apollo',
-                            icon: 'pi pi-palette'
-                        },
-                        {
-                            label: 'Ultima',
-                            icon: 'pi pi-palette'
-                        }
-                    ]
+                    label: 'Custom pipes',
+                    icon: 'pi pi-cog',
+                    routerLink: '/custom'
                 }
             ]
-        },
-        {
-            label: 'Contact',
-            icon: 'pi pi-envelope'
         }
     ]
   }
