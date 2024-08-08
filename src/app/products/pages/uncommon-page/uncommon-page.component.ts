@@ -15,6 +15,23 @@ export class UncommonPageComponent {
     female: 'invitarla'
   }
 
+
+  public clients: string[] = ['Aldahir', 'Josue', 'Genesis', 'Gia', 'Carlos'];
+
+  public clientsMap = {
+    '=0': 'no tenemos ningún cliente esperando.',
+    '=1': 'tenemos un cliente esperando.',
+    'other': 'tenemos # clientes esperando.'
+  }
+
+
+  public person = {
+    'name': 'Aldahir',
+    'age': 24,
+    'address': 'Las acacias'
+  }
+
+
   public changeClient(): void {
 
     if(this.name == 'Aldahir') {
@@ -24,6 +41,10 @@ export class UncommonPageComponent {
       this.name = 'Aldahir';
       this.gender = 'male';
     }
+  }
+
+  public deleteClient() {
+    this.clients.shift();
   }
 
 }
